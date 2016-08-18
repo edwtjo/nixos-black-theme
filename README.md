@@ -5,7 +5,7 @@ To use this theme in NixOS set your SLiM configuration settings like so:
 
 ```
 
-  services.displayManager.slim = {
+  services.xserver.displayManager.slim = {
     enable = true;
     theme = pkgs.fetchurl {
       url = "https://github.com/edwtjo/nixos-black-theme/archive/v1.0.tar.gz";
